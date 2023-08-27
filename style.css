@@ -1,0 +1,22 @@
+/* Additional custom styling */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+.search-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+.recipe-card {
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
