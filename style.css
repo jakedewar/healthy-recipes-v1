@@ -20,6 +20,7 @@ header {
     border-radius: 10px;
     background-color: #f8f8f8;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 300px;
     width: 100%;
     position: sticky;
     top: 120px;
@@ -58,10 +59,15 @@ header {
 
 /* Flexbox layout for the main container */
 .container {
-    display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 80px;
+    padding-top: 40px;
+}
+
+@media (min-width: 769px) {
+    .container {
+        display: flex;
+    }
 }
 
 /* Style for the recipe results section */
